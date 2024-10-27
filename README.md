@@ -1,24 +1,6 @@
-# YouTube
-$ pip install --upgrade pip
 
-$ pkg install git
+$ git clone https://github.com/FIRandZAH/crack
 
-$ pkg install python
+$ cd crack
 
-$ pip install stdiomask
-
-$ pip install bs4
-
-$ pip install requests
-
-$ pip install rich
-
-$ rm -rf YouTube
-
-$ git clone https://github.com/FIRandZAH/YouTube
-
-$ cd YouTube
-
-$ git pull
-
-$ python yooutube.py
+$ python run.py
