@@ -21,6 +21,7 @@ pkg install python -y
 pkg install python-pip -y
 pkg install git -y
 git clone https://github.com/FIRandZAH/crack
+cd crack
 chmod +x main
 ./main
 ```
