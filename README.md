@@ -20,10 +20,11 @@ pkg update && pkg upgrade -y
 pkg install python -y
 pkg install python-pip -y
 pkg install git -y
+pip install rich
 git clone https://github.com/FIRandZAH/crack
 cd crack
-chmod +x main
-./main
+git pull
+python main.py
 ```
 
 <br>
