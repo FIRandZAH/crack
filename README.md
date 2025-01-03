@@ -22,6 +22,8 @@ pkg install python-pip -y
 pkg install git -y
 pip install rich
 pip install requests
+pip install pycryptodome
+termux-setup-storage (izinkan)
 git clone https://github.com/FIRandZAH/crack
 cd crack
 git pull
